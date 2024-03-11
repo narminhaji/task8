@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Erica+One&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Gloock&family=Lora:ital,wght@0,400..700;1,400..700&family=Madimi+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Ojuju:wght@200..800&family=Permanent+Marker&family=Zhi+Mang+Xing&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Erica+One&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Gloock&family=Itim&family=Lora:ital,wght@0,400..700;1,400..700&family=Madimi+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Ojuju:wght@200..800&family=Permanent+Marker&family=Zhi+Mang+Xing&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Dancing+Script:wght@400..700&family=Erica+One&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Gloock&family=Itim&family=Lora:ital,wght@0,400..700;1,400..700&family=Madimi+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Ojuju:wght@200..800&family=Permanent+Marker&family=Zhi+Mang+Xing&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&family=Bungee+Shade&family=Dancing+Script:wght@400..700&family=Erica+One&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Gloock&family=Itim&family=Lora:ital,wght@0,400..700;1,400..700&family=Madimi+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Ojuju:wght@200..800&family=Permanent+Marker&family=Zhi+Mang+Xing&display=swap');*{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+    text-shadow: 20px;
+
+}
+    
+.header1{
+    background-image: url(https://i.pinimg.com/564x/4f/07/f8/4f07f8b1f2a35db3f49ad5a0e6bb8e70.jpg);
+
+     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+h1:hover {
+    color: rgb(132, 79, 0);
+  }
+header {
+    background-color:burlywood;
+    height: 100px;
+    padding: none;
+    margin: none;
+}
+.header1 h1 {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: -250px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 40% 0%;
+    text-shadow: 4px 4px 2px rgba(115,57,57,0.6);
+    cursor: pointer;
+}
+.header1 h1:hover{
+    color: #ff7b00;
+}
+.header1 p{
+    position: relative;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    font-size: x-large;
+    top: -150px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 40% 0%;
+    text-shadow: 4px 4px 2px rgba(115,57,57,0.6);
+}
+.p {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    font-size: x-large;
+    top: -150px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 40% 0%;
+    text-shadow: 4px 4px 2px rgba(115,57,57,0.6);
+}
+.mez p{
+    margin: 30px 30px 40px 40px;
+    font-size: x-large;
+}
+.container {
+    width: 1300px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0px 20px;
+    font-size: larger;
+
+}
+.navbar .logo img {
+    height: 100px;
+    width: auto;
+    mix-blend-mode: multiply;
+    margin: 0px;
+}
+.navbar .logo1 img {
+   
+    height: 80px;
+    width: auto;
+    mix-blend-mode: multiply;
+    margin: 10px;}
+
+.navbar .logo h1{
+    color:rgb(97, 56, 3);
+    position: relative;
+    bottom: 65px;
+    right: 35px;
+    font-family: "Bungee Shade", sans-serif;
+    font-weight: 40;
+    font-style: normal;
+    font-size: 30px;
+}
+.links ul {
+    color: rgb(173, 103, 11);
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    height: 100px;
+    gap: 50px;
+    text-shadow: 6px 4px 8px rgba(130,88,8,0.6);
+    font-family: "Itim", cursive;
+  font-weight: 400;
+  font-style: normal;
+  cursor: pointer;
+
+}
+.links ul :hover{
+    color: rgb(97, 45, 8);
+}
+button {
+    width: 70px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: yellow;
+    color: rgb(251, 207, 77);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black;
+    color: rgb(123, 95, 0);
+}
+
+button {
+    width: 70px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(90, 66, 2);
+    color: rgb(255, 176, 116);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(195, 160, 7);
+    color: rgb(117, 58, 7);
+}
+
+section h2 {
+    text-align: center;
+    margin: 20px 0px 0px;
+}
+
+.products {
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+}
+.product:hover, .product:focus-within {
+    box-shadow: 0 0 0 2px #ff6200, 0 10px 60px 0 rgba(0, 0, 0, 0.1);
+    transform: translatey(-5px);
+  }
+  .icon-button {
+    position: absolute;
+    top: 1.1rem;
+    right: 1.1rem;
+    border: 0;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 1.5rem;
+    height: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    font-size: 1rem;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05), 0 3px 8px 0 rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    color: #565656;
+  }
+  .icon-button:hover, .icon-button:focus {
+    background-color: #582f00;
+    color: #FFF;
+  }
+.product {
+    border: 2px solid rgb(97, 45, 8);
+    border-radius: 25px;
+    border-width: thick;
+    width: 20%;
+    height: 20%;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #FFF;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05), 0 20px 50px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 1.25rem;
+    position: relative;
+    transition: 0.15s ease-in;
+}
+
+.buy {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px;
+}
+
+.product img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 18px 18px 0 0;
+}
+
+.son img{
+     padding: 20px 0px;
+    float: right;
+    margin: 0px 0px 15px 20px;
+
+}
+.son p{
+    margin: 30px 0px 15px 20px;
+padding: 20px;
+    font-size: xx-large;
+}
+.fi img{ 
+    height: 100px;
+    position: relative;
+    width: auto;
+    top: 10px;
+    mix-blend-mode: multiply;
+    margin: 0px;
+    float: left;
+}
+.fi h1{
+    color:rgb(97, 56, 3);
+    position: relative;
+    bottom: 0px;
+    right: 300px;
+    font-family: "Bungee Shade", sans-serif;
+    font-weight: 40;
+    font-style: normal;
+    font-size: 30px;
+}
